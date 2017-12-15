@@ -47,7 +47,7 @@ Se o sistema de CEP receber dois eventos, sendo um enviado pelo smartphone do pr
 Monitoramento via drone: caso um veículo se aproxime da cancela, pelo lado interno do estacionamento e o sistema detecte, através do leitor de RFID e posteriormente através de uma consulta ao banco de dados interno, que esse veículo não tem permissão para sair do estacionamento, um evento é enviado, do sistema que roda no computador embarcado que está na cancela, para o GPS do veículo. A partir daí, o GPS enviará eventos, que contêm a latitude e a longitude do veículo, para um drone. Através dessa informação o drone, de forma autônoma, seguirá as informações da localização do veículo e enviará para uma central de monitoramento, imagens aéreas do veículo, para auxiliar em sua localização caso o mesmo consiga sair do estacionamento. 
 
 <p align="center">
-  <img src="https://github.com/marcelorodriguesfortes/rec-facial-em-smart-space/blob/master/Fig/Figura1.PNG" width="450"/>
+  <img src="https://github.com/marcelorodriguesfortes/sistema-localizacao-indoor-estacionamento/blob/master/Fig/Figura%201.png" width="450"/>
 </p>
 
 
@@ -64,6 +64,6 @@ A verificação da permissão de um veículo para estacionar em uma vaga reserva
 Para simular os drones responsáveis por enviar imagens aéreas de veículos que saem do estacionamento sem permissão, nós utilizamos a API do google maps para android. Utilizando um smartphone, nós plotamos no mapa a posição do drone de acordo com as coordenadas recebidas de outra aplicação que simula o gps de um veículo. Portanto, nós utilizamos duas aplicações diferentes, em dois smartphones diferentes. Uma aplicação para enviar latitudes e longitudes e outra aplicação para plotar, nessas posições, a representação do drone no mapa. A Figura 2 mostra a interface da aplicação que simula a trajetória do drone. 
 
 <p align="center">
-  <img src="https://github.com/marcelorodriguesfortes/rec-facial-em-smart-space/blob/master/Fig/Figura2.PNG" width="350"/>
+  <img src="https://github.com/marcelorodriguesfortes/sistema-localizacao-indoor-estacionamento/blob/master/Fig/Figura%202.png" width="350"/>
 </p>
 
