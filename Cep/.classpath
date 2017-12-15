@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/home/marcelo/Documentos/esper-5.3.0/esperio-springjms-5.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/marcelo/Documentos/esper-5.3.0/esper/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/home/marcelo/Documentos/esper-5.3.0/esper/lib/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="/home/marcelo/Documentos/esper-5.3.0/esper/lib/cglib-nodep-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/marcelo/Documentos/esper-5.3.0/esper/lib/antlr-runtime-4.1.jar"/>
+	<classpathentry kind="lib" path="/home/marcelo/Documentos/esper-5.3.0/esperio-stax-5.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/marcelo/Documentos/esper-5.3.0/esperio-socket-5.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/marcelo/Documentos/esper-5.3.0/esperio-http-5.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/marcelo/Documentos/esper-5.3.0/esperio-db-5.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/marcelo/Documentos/esper-5.3.0/esperio-csv-5.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/marcelo/Documentos/esper-5.3.0/esperio-amqp-5.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/marcelo/Documentos/esper-5.3.0/esper-5.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/marcelo/Documentos/coredx-3.6.21-Evaluation/target/java/coredx_dds.jar"/>
+	<classpathentry kind="lib" path="/home/marcelo/Documentos/mysql-connector-java-5.1.38/mysql-connector-java-5.1.38-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
