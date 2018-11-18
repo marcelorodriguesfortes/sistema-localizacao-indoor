@@ -1,6 +1,6 @@
 - Visão geral do projeto
 
-Este sistema foi resultado de um ano de pesquisa desenvolvida durante minha graduação, na Universidade Federal de Goiás. 
+Este sistema foi resultado de um ano de pesquisa desenvolvida durante minha graduação, na Universidade Federal de Goiás, em parceria com o professor Fábio Moreira Costa. 
 Neste trabalho fizemos o uso de NFC (Near Field Communication) e RFID (Radio-Frequency IDentification) para implementar um serviço de localização indoor para uma 
 aplicação de um ambiente inteligente. A aplicação proposta tem como objetivo assegurar a segurança de um estacionamento 
 por mdio do controle autônomo de entrada e saída de veículos e da identificação de seus respectivos proprietários. Além disso,
