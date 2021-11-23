@@ -20,7 +20,7 @@ RFID que está fixada no veículo. Cada etiqueta armazena a placa do veículo em
 pelo lado externo do estacionamento, o leitor de RFID faz a leitura da etiqueta do veículo e sua placa é armazenada no banco de 
 dados de um computador embarcado, que está acoplado ao leitor de RFID via interface serial.
 
-Esse banco de dados possui dois campos para cada tupla: placa e permissão. Ou seja, para cada placa o banco de dados armazena um tipo de permissão diferente. 
+No banco de dados são armazenados alguns dados do veículo, como placa e o tipo de permissão que o veículo possui. Ou seja, para cada placa o banco de dados armazena um tipo de permissão diferente. 
 O campo “permissão” funciona como uma flag, tendo dois valores possíveis: 1 e 0. Quando o veículo entra no estacionamento esse campo é preenchido com um 0, ou seja, sua saída do estacionamento não está autorizada. Apenas quando esse valor é modificado para 1 o sistema permite a saída do veículo do estacionamento. O serviço de localização veículo/usuário,
 que será explicado mais adiante é responsável por modificar esse valor do bando de dados. 
 
